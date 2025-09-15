@@ -11,7 +11,6 @@ class TodoApp(QWidget):
     def initUI(self):
         self.setWindowTitle('To-Do List Application') 
         self.setGeometry(100, 100, 600, 400)
-        self.setWindowIcon(QIcon('todo_icon.png'))
 
         self.layout = QVBoxLayout()
         self.todo_list = QListWidget()
@@ -83,6 +82,7 @@ def main():
 if __name__ == '__main__':
     main()    
                   
+
 
 
 
